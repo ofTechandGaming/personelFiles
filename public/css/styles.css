@@ -1,0 +1,249 @@
+/****************************TAG SELECTORS*******************************/
+
+
+hr {
+  background-color: #11ffee00;
+  border-width: 5px;
+  border-color: white;
+  border-style: dotted none none;
+  width: 3%;
+}
+Body{
+  background-color: #000000;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  color: #00ff41;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 500;
+  color: #00ff41;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 500;
+
+  color: #00ff41;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 500;
+
+color: #00ff41;
+
+}
+
+h4 {
+  font-family: 'Overpass Mono', monospace;
+
+}
+
+h5 {
+  font-family: 'Overpass Mono', monospace;
+
+}
+
+p {
+  color: #00ff41;
+}
+tfoot {
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+a {
+  font-family: 'Overpass Mono', monospace;
+  color: #00ff41;
+}
+
+em {
+  color:#008F11;
+}
+
+/****************************CLASS SELECTORS*******************************/
+
+.otagRed{
+color: #b50000
+
+}
+
+.otagRed:hover{
+  color: #560000
+}
+.header {
+  color:#66BFBF;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.tip_table {
+  align-items: center;
+}
+
+.border {
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+  background-color: #black;
+
+}
+.footer {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.newLine {
+  padding-left: 0px;
+}
+
+.pro-title{
+font-weight: bold;
+}
+.pro-detail{
+
+}
+
+.admin-profile{
+  text-align: left;
+}
+
+.btn-twitch{
+  background-color: #6441a5;
+  outline-color:  #6441a5;
+}
+
+
+.btn-twitch:hover{
+  background-color: #503484;
+}
+
+
+.btn-outline-otag{
+  color:#b50000;
+  border-color:#b50000
+}
+
+.btn-outline-otag:hover{
+  color:#fff;
+  background-color:#b50000;
+  border-color:#b50000
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.footText{
+  color: white;
+  border-color: white;
+}
+
+.leftAlighn {
+  text-align: left;
+}
+
+
+.sec-1 {
+  background-color: black;
+}
+
+.navbar-dark .navbar-brand {
+  color: #00ff41;
+}
+
+.navbar-link {
+  color: #00ff41;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+  color: #008F11;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #00ff41;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: #008F11;
+}
+
+.dropdown-toggle {
+  color: #00ff41;
+  background-color: black;
+  border:#11ffee00;
+}
+
+.dropdown-toggle:hover {
+  color: #008F11;
+  background-color: black;
+  border:#11ffee00;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+  color: #008F11;
+  background-color: black;
+  border:#11ffee00;
+}
+
+.dropdown{
+  margin-right: 0;
+}
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-item {
+  color: #00ff41;
+  background-color: black;
+}
+
+.dropdown-item:hover {
+  color: black;
+  background-color: #008F11;
+}
+
+/****************************ID SELECTORS*******************************/
+
+#title {
+  background-color: #222831
+}
+
+#instructions {
+  background-color: #fff;
+
+}
+
+#timer {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* bootstraps */
+.carousel .item {
+  height: 300px;
+}
+
+.item .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}

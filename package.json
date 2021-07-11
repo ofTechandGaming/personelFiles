@@ -1,0 +1,25 @@
+{
+  "name": "personelFiles",
+  "version": "1.0.0",
+  "description": "Personel Files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "heroku": "^7.42.8",
+    "html-pdf": "^2.2.0",
+    "mongoose": "^5.11.11",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.6"
+  }
+}
