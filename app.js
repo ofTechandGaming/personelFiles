@@ -20,6 +20,10 @@ app.get("/", function(req, res) {
   res.render("landing")
 })
 
+app.get("/home", function(req, res) {
+  res.render("home")
+})
+
 app.get("/Charlie", function(req, res) {
   res.render("Charlie")
 })
