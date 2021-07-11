@@ -68,6 +68,11 @@ em {
   color:#008F11;
 }
 
+
+button {
+  border: none;
+  padding: 0;
+}
 /****************************CLASS SELECTORS*******************************/
 
 .otagRed{
@@ -219,6 +224,16 @@ font-weight: bold;
   background-color: #008F11;
 }
 
+
+
+.card {
+  background-color: black;
+  border-color: #00ff41;
+}
+
+.card-img-top {
+  border-color: #00ff41;
+}
 /****************************ID SELECTORS*******************************/
 
 #title {
