@@ -3,10 +3,10 @@
 
 hr {
   background-color: #11ffee00;
-  border-width: 5px;
-  border-color: white;
-  border-style: dotted none none;
-  width: 3%;
+  border-width: 2px;
+  border-color: #008f11;
+  border-style: dashed none none;
+  width: 25%;
 }
 Body{
   background-color: #000000;
@@ -73,6 +73,8 @@ button {
   border: none;
   padding: 0;
 }
+
+
 /****************************CLASS SELECTORS*******************************/
 
 .otagRed{
@@ -152,7 +154,8 @@ font-weight: bold;
 }
 
 .profile {
-  border-radius: 50%;
+  border-radius: 5%;
+  border-style: double;
 }
 
 .footText{
@@ -233,6 +236,11 @@ font-weight: bold;
 
 .card-img-top {
   border-color: #00ff41;
+}
+
+.characterBios {
+  text-align: left;
+
 }
 /****************************ID SELECTORS*******************************/
 
