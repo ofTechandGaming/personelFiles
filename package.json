@@ -20,6 +20,6 @@
     "html-pdf": "^2.2.0",
     "mongoose": "^5.11.11",
     "nodemailer": "^6.4.11",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.12"
   }
 }
