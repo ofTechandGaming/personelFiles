@@ -53,7 +53,7 @@ app.post("/newUser", function(req, res) {
   })
 })
 
-app.post("/home", function(req, res) {
+app.post("/oldUser", function(req, res) {
   const password = req.body.password;
 
   User.findOne({
@@ -71,6 +71,10 @@ app.post("/home", function(req, res) {
     }
   })
 })
+
+app.post("/home", function(req, res){
+  res.render("home");
+}
 
 app.post("/Charlie", function(req, res) {
   res.render("Charlie")
