@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const https = require('https');
@@ -18,7 +20,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 
-mongoose.connect("mongodb+srv://Whitneyrose:Jfkdls246^@cluster0.zxbjs.mongodb.net/rowanDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Whitneyrose:" + process.env.MONGO_PASSWORD + "@cluster0.zxbjs.mongodb.net/rowanDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
