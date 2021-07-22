@@ -35,8 +35,8 @@ app.get("/", function(req, res) {
   res.render("landing")
 })
 
-app.get("/encryption", function(req, res) {
-  res.render("encryption")
+app.get("/Encryption", function(req, res) {
+  res.render("Encryption")
 })
 
 app.post("/newUser", function(req, res) {
