@@ -34,43 +34,31 @@
 
 <body>
 
-  <section id="title">
+  <section id="">
+<div class="">
 
+<h1>Enter Your Password</h1>
     <!-- Nav Bar -->
-    <div class="container-fluid sec-1">
-
-      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
-        <form class="" action="/home" method="post">
-          <h3><button class="navbar-brand greenText personelImage" href="/home">The A(DHD) Team</button></h3>
-        </form>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        </div>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Personel Files
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <form class="" action="/Charlie" method="post">
-              <button class="dropdown-item" type="submit">Charlie</button>
-            </form>
-            <form class="" action="/Morgan" method="post">
-              <button class="dropdown-item" type="submit">Morgan</button>
-            </form>
-            <form class="" action="/Ford" method="post">
-              <button class="dropdown-item" type="submit">Ford</button>
-            </form>
-            <form class="" action="/Jack" method="post">
-              <button class="dropdown-item" type="submit">Jack</button>
-            </form>
-            <form class="" action="/Jade" method="post">
-              <button class="dropdown-item" type="submit">Jade</button>
-            </form>
-            <form class="" action="/Ivy" method="post">
-              <button class="dropdown-item" type="submit">Ivy</button>
-            </form>
-
-
-          </div>
-        </div>
+</div>
+<br><br>
   </section>
-  </nav>
+
+  <div class="content">
+    <hr>
+    <br><br>
+    <section>
+        <br><br>
+      <div class="password">
+        <form class="password" action="/home" method="post">
+          <input type="password" id="password" name="password"
+           minlength="8" required>
+        </form>
+<br><br>
+      </div>
+      <br><br>
+      <hr>
+
+  </div>
+</section>
+
+<%- include("footer") -%>

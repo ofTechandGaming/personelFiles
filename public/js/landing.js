@@ -2,8 +2,12 @@
 // document.getElementById("myVideo").play();
 
 
-const enterButton = document.getElementById("enterButton")
-const pipboy = document.getElementById("myVideo")
+const enterButton = document.getElementById("enterButton");
+const pipboy = document.getElementById("myVideo");
+
+function pipboyEnded() {
+  console.log("Video Finished");
+}
 
 enterButton.onclick = function() {
 
@@ -11,4 +15,4 @@ enterButton.onclick = function() {
   pipboy.removeAttribute("hidden");
   pipboy.play();
 
-}
+};

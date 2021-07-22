@@ -1,23 +1,62 @@
-<%- include("header") -%>
-</div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<div class="content">
-  <br><br>
-  <section>
-<div class="enterScreen">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="Tip Calculator, Starbucks">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title> The A(DHD) Team</title>
+
+  <!-- CSS Sheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
 
-<button type="button" name="button">
-<img id="enterButton" src="images\enterButton.png" alt="Enter">
-</button>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Roboto+Condensed|Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+
+  <!-- Bootstraps Scrips -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/78b4ce12eb.js" crossorigin="anonymous"></script>
+
+  <!-- Twitch -->
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+
+  </section>
+  <div class="content">
+    <br><br>
+    <section>
+      <div class="enterScreen">
+
+        <button type="button" name="button">
+          <img id="enterButton" src="images\enterButton.png" alt="Enter">
+        </button>
+
+<form  action="/home" method="post">
 
 
-<video hidden preload="true" id="myVideo" onended="window.open('/home', '_self');">
-  <source src='images\pipboy bootanimation.mp4' type='video/mp4'>
-</video>
-
-</div>
-</section>
-<script src="js/landing.js" charset="utf-8"></script>
-</div>
-<%- include("footer") -%>
+        <video hidden preload="true" id="myVideo" onended="window.open('/encryption', '_self')">
+          <source src='images\pipboy bootanimation.mp4' type='video/mp4'>
+        </video>
+</form>
+      </div>
+    </section>
+    <script src="js/landing.js" charset="utf-8"></script>
+  </div>
+  <%- include("footer") -%>

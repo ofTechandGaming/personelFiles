@@ -242,7 +242,19 @@ font-weight: bold;
   text-align: left;
 
 }
+
+.personelImage {
+  background-color: black;
+  color: #00ff41;
+}
+
+
 /****************************ID SELECTORS*******************************/
+
+#password{
+  color: #00ff41;
+  background-color: black;
+}
 
 #title {
   background-color: #222831
