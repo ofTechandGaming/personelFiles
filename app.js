@@ -74,7 +74,7 @@ app.post("/oldUser", function(req, res) {
 
 app.post("/home", function(req, res){
   res.render("home");
-}
+})
 
 app.post("/Charlie", function(req, res) {
   res.render("Charlie")
